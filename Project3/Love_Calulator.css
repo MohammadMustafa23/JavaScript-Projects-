@@ -1,0 +1,36 @@
+.innerpart{
+    height: 300px;
+    display: flex;flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#boy{
+    text-align: center;
+    width: 400px;
+    height: 30px;
+    font-style: oblique;
+    background-color: rgb(5, 9, 26);
+    border: none;
+    border-radius: 9px;
+    color: white;
+}
+#girl{
+    text-align: center;
+    width: 400px;
+    height: 30px;
+    font-style: oblique;
+    background-color: rgb(5, 9, 26);
+    border: none;
+     color: white;
+    border-radius: 9px;
+}
+#sub{
+    text-align: center;
+    width: 400px;
+    height: 30px;
+    font-style: oblique;
+    background-color: rgb(5, 9, 26);
+    border: none;
+    color: wheat;
+    border-radius: 9px;
+}

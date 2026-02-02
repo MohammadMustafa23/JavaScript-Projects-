@@ -8,3 +8,4 @@ Note : I Will Foucus On Logic of Java Script. Not On The style
 --------- Project's -------
 1 : Random Quote Generator
 2 : Background Color Changer
+3 : Love Calculator
