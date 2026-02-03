@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+#btn{
+    color: white;
+    background-color: black;
+    margin-left: 80px;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    border: solid 2px rgb(100, 23, 214);
+}
+#btn:hover {
+    background-color: red;
+}
+h2{
+    font-size: 30px;
+    color: red;
+    text-align: center;
+}
+#result{
+    font-size: 30px;
+    color: red;
+    text-align: center;
+    padding-right: 150px;
+}
+h2:hover {
+    color: rgb(60, 255, 0);
+}
+#inpt{
+    background-color: black;
+    height: 25px;
+    width: 200px;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: white;
+    border: none;
+}
+#inpt:hover {
+    border: solid 2px red;
+}
+label{
+    color: red;
+    font-size: 20px;
+}
+#result{
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    padding-left: 30px;
+}
