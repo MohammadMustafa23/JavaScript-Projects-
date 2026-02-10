@@ -1,0 +1,63 @@
+body{
+      margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6E00FF;
+}
+.parent{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 500px;
+  width: 500px;
+  border-radius: 20px;
+  background-color: rgb(150, 33, 33);
+  justify-content: space-evenly;
+}
+.child{
+  height: 70px;
+  width: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#input{
+   height: 70px;
+   width: 300px;
+   border-radius: 10px;
+   border: none;
+   text-align: right;
+   font-size: 30px;
+   letter-spacing: 1;
+} 
+#input ::placeholder{
+  color: black;
+}
+#clear{
+  height: 60px;
+  width: 140px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+}
+#Same{
+  height: 60px;
+  width: 50px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+}
+.Color{
+  background-color: red;
+  font-weight: 900;
+}
+.Zero{
+  height: 60px;
+  width: 230px;
+  border: none;
+    font-size: 20px;
+  border-radius: 10px;
+}
