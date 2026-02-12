@@ -17,3 +17,4 @@ Note : I Will Foucus On Logic of Java Script. Not On The style
 9 : Timer Set By User
 10 : Random Password Genrator
 11 : Basic Calculator 
+12 : Ticket Generator
