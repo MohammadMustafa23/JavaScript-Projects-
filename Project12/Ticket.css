@@ -1,0 +1,214 @@
+/* body {
+  background-color: cadetblue;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.main_part {
+  height: 500px;
+  width: 500px;
+  background-color: red;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.source_station {
+  background-color: yellow;
+  height: 50px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  flex-direction: column;
+}
+.destination_station {
+  background-color: rgb(73, 243, 197);
+  height: 50px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  flex-direction: column;
+}
+#btn {
+  height: 30px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: rgb(32, 199, 199);
+}
+
+.Tickethead {
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: wheat;
+}
+.Ticket {
+  width: 300px;
+  background: #fff;
+  margin: 40px auto;
+  padding: 16px;
+  border: 1px dashed #999;
+  text-align: center;
+  color: #000;
+  border-radius: 10px;
+}
+
+.title {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.small {
+  font-size: 13px;
+  margin: 4px 0;
+}
+.code {
+  letter-spacing: 1px;
+  margin: 6px 0;
+}
+
+.qr {
+  margin: 10px auto;
+  width: 120px;
+  height: 120px;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  background-image: url('./QR_Code.webp');
+  background-size: cover;
+}
+
+.divider {
+  border-top: 1px dashed #000;
+  margin: 10px 0;
+}
+
+.footer {
+  font-size: 12px;
+  margin-top: 8px;
+} */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    color: #222;
+}
+
+/* Ticket card */
+.Tickethead {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.Ticket {
+    width: 260px;
+    background: #ffffff;
+    border-radius: 18px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    transition: transform .3s;
+}
+
+.Ticket:hover {
+    transform: scale(1.03);
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0a4d68;
+    margin-bottom: 8px;
+}
+
+.small {
+    font-size: 13px;
+    margin: 6px 0;
+}
+
+.code {
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin: 10px 0;
+}
+
+.divider {
+    height: 1px;
+    background: #ddd;
+    margin: 12px 0;
+}
+
+.footer {
+    font-size: 12px;
+    margin-top: 12px;
+    color: #444;
+}
+
+/* form section */
+.main_part {
+    background: white;
+    padding: 20px 25px;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+select {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: .3s;
+}
+
+select:focus {
+    border-color: #0a4d68;
+    box-shadow: 0 0 5px rgba(10,77,104,.4);
+}
+
+/* button */
+#btn {
+    background: linear-gradient(135deg,#0a4d68,#088395);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: .3s;
+}
+
+#btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.35);
+}

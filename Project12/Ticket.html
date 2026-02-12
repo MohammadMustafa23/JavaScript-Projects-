@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tiket Genrator </title>
+    <link rel="stylesheet" href="./Ticket.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="Tickethead">
+        <div class="Ticket">
+            <div class="title">Mumbai Metro Rail Corporation</div>
+            <div class="small">2 / 2</div>
+
+            <div class="code">526F7736346D4E00</div>
+            <div class="qr"></div>
+
+            <div class="divider"></div>
+
+            <div class="small"><strong>Rs. 10 / CASH</strong></div>
+            <div class="small" id="date">23/12/2025&nbsp;&nbsp;21:52:57</div>
+            <div class="small">EFO - 0030</div>
+
+            <div class="divider"></div>
+
+            <div class="small" id="Source">Source: Badi Chaupar</div>
+            <div class="small" id="Destination">Destination: Chandpole</div>
+
+            <div class="footer">
+                Please keep this ticket safe until<br>
+                end of Journey
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main_part">
+        <div class="source_station">
+            <label>Select The Source Station:</label>
+            <select id="StationS">
+
+                <option value="Versova">Versova</option>
+                <option value="D.N. Nagar">D.N. Nagar</option>
+                <option value="Azad Nagar">Azad Nagar</option>
+                <option value="Andheri">Andheri</option>
+                <option value="Western Express Highway">Western Express Highway</option>
+                <option value="Chakala">Chakala</option>
+                <option value="Airport Road">Airport Road</option>
+                <option value="Marol Naka">Marol Naka</option>
+                <option value="Saki Naka">Saki Naka</option>
+                <option value="Asalpha">Asalpha</option>
+                <option value="Ghatkopar">Ghatkopar</option>
+
+            </select>
+        </div>
+
+        <div class="destination_station">
+            <label>Select The Destination Station:</label>
+            <select id="StationD">
+
+                <option value="Versova">Versova</option>
+                <option value="D.N. Nagar">D.N. Nagar</option>
+                <option value="Azad Nagar">Azad Nagar</option>
+                <option value="Andheri">Andheri</option>
+                <option value="Western Express Highway">Western Express Highway</option>
+                <option value="Chakala">Chakala</option>
+                <option value="Airport Road">Airport Road</option>
+                <option value="Marol Naka">Marol Naka</option>
+                <option value="Saki Naka">Saki Naka</option>
+                <option value="Asalpha">Asalpha</option>
+                <option value="Ghatkopar">Ghatkopar</option>
+
+            </select>
+        </div>
+    </div>
+
+
+    <button id="btn"> Submit </button>
+    </div>
+
+    <script src="./Ticket.js"></script>
+</body>
+
+</html>
