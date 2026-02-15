@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> WeatherScope Pro </title>
+    <link rel="stylesheet" href="./Wether.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="result_part">
+        <img id="weatherIcon" src="clear.png">
+        <div class="temprature"></div>
+        <div class="city"></div>
+
+        <div class="AboutThis">
+            <div class="humadity">
+                <div class="one">
+                </div>
+                <div class="two">
+                    <span id="Hum" >53%</span>Humadity</div>
+                    <img id="humadity"  src="./humidity.png"/>
+                </div>
+            <div class="wind">
+                <div class="one1"></div>
+                <div class="two2">
+                    <span id="wind" >5.66 km/H</span>wind speed</div>
+                    <img id="windimg" src="./wind.png" />
+                </div>
+        </div>
+    </div>
+
+
+    <div class="main_part">
+        <div class="TitlePart">
+            <h1 class="app-title">WeatherScope Pro</h1>
+        </div>
+        <div class="aboutinfo">
+            <p class="app-subtitle">Advanced Weather Intelligence Platform</p>
+            <div class="status-badge">
+                <i class="fas fa-check-circle"></i>
+                API Connected & Ready
+            </div>
+        </div>
+        <div class="inputCity">
+            <input id="input" placeholder="Enter city name...">
+            <button id="btn" > Search </button>
+        </div>
+    </div>
+    
+    <script src="./Wether.js"></script>
+</body>
+
+</html>

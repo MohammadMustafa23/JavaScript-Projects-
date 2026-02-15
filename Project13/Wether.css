@@ -1,0 +1,139 @@
+/* body {
+  background-color: cadetblue;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--primary-gradient);
+  background-size: 400% 400%;
+  animation: gradientFlow 20s ease infinite;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  position: relative;
+  overflow-x: hidden;
+}
+.main_part {
+ background: linear-gradient(135deg,#4facfe,#00f2fe);
+  height: 500px;
+  width: 600px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.TitlePart {
+  width: 80%;
+  font-size: 2rem;
+  text-align: center;
+  height: 200px;
+}
+.inputCity {
+  width: 80%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutinfo {
+  width: 80%;
+  height: 150px;
+  font-size: 20px;
+  text-align: center;
+}
+#btn{
+  height: 50px;
+  width: 120px;
+  margin-left: 20px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+}
+#input{
+  height: 50px;
+  border-radius: 20px;
+  padding-left: 20px;
+  width: 300px;
+}
+.result_part{
+    display: none;
+    justify-content: center;
+    flex-direction: column;
+    width: 320px;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 20px;
+    background: linear-gradient(135deg,#4facfe,#00f2fe);
+    color: #fff;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.sun{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 15px;
+    background: url('sun.png') center/contain no-repeat;
+}
+
+.temprature{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.city{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.AboutThis{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.humadity, .wind{
+    width: 48%;
+    background: rgba(255,255,255,0.2);
+    border-radius: 15px;
+    padding-top: 5px;
+    backdrop-filter: blur(5px);
+}
+
+#Hum, #wind{
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#humadity ,#windimg{
+    width: 60px;
+    height: 60px;
+    padding-top: 5px;
+}
+#weatherIcon{
+  align-self: center;
+  width: 150px;
+}
+
+@media(max-width : 900px) {
+    .main_part{
+       height: 80vh;
+       width: 80vw;
+    }
+    .TitlePart h1 {
+      font-size: 40px;
+    }
+}
