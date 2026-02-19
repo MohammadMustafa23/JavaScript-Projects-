@@ -19,4 +19,4 @@ Note : I Will Foucus On Logic of Java Script. Not On The style
 11 : Basic Calculator 
 12 : Ticket Generator
 13 : Weather Scope Pro
-
+14 : Smart Typing Speed Test (Live Analyzer)
